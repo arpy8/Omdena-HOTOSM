@@ -28,9 +28,10 @@ a[data-testid="baseLinkButton-secondary"] {
     backdrop-filter: blur(100px);
 }
 
-div[data-testid="stExpanderDetails"] {
-    /* border-color: #ffffff95; */
-    backdrop-filter: blur(5px);
+div[data-testid="stExpander"] {
+    border-color: #ffffff95;
+    backdrop-filter: blur(15px);
+    background-color: #ffffff75;
 }
 
 div[data-testid="stMultiSelect"] {
@@ -68,7 +69,6 @@ div[data-baseweb="popover"] *
 }
 
 @media(hover:hover) and (min-width: 600px) and (max-width: 769px){
-
     header[data-testid="stHeader"] {
         display:none;
     }
@@ -100,7 +100,6 @@ div[data-baseweb="popover"] *
     div[data-testid="collapsedControl"]{
         display: none;
     }
-
 }
 
 @media(hover: hover) and (min-width: 769px){
@@ -127,7 +126,7 @@ div[data-baseweb="popover"] *
 
     /* section[data-testid='stSidebar']:hover{
         min-width: 330px !important;
-        } */
+    } */
 
     button[kind="header"] {
         display: none;
