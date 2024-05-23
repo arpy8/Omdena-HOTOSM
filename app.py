@@ -7,7 +7,7 @@ from model_page import models_page
 from constants import PAGE_BANNER, PAGE_FAVICON, PAGE_BACKGROUND
 
 
-st.set_page_config(page_title='Sentiment Analysis Tool', page_icon=PAGE_FAVICON, layout='wide')
+st.set_page_config(page_title='Omdena HOTOSM Webapp', page_icon=PAGE_FAVICON, layout='wide')
 st.markdown('<style>' + open('./assets/css/styles.css').read() + '</style>', unsafe_allow_html=True)
 set_page_background(PAGE_BACKGROUND)
 
