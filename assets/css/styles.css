@@ -30,7 +30,7 @@ a[data-testid="baseLinkButton-secondary"] {
 
 div[data-testid="stExpander"] {
     border-color: #ffffff95;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(10px);
     background-color: #ffffff75;
 }
 
