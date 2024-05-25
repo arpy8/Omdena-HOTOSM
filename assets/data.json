@@ -1,62 +1,140 @@
 {
-    "task-01-01": 
-    [ 
+    "Task 01-01": [
         {
-            "task":"Task-01-01",
-            "title":"Ramp Sam Postprocessing",
-            "lead":"John Doe",
-            "image_path":"assets/images/01.png",
-            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, autem! Laborum harum porro, earum provident enim ipsum alias doloribus aliquam quas dolores."
+            "title": "Ramp Sam Postprocessing",
+            "lead": "John Doe",
+            "members": [
+                "John Doe",
+                "John Doe",
+                "John Doe"
+            ],
+            "image_path": "./assets/images/01.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?",
+            "links": [
+                {
+                    "title": "GitHub",
+                    "url": "https://github.com"
+                },
+                {
+                    "title": "Paper",
+                    "url": "https://arxiv.org"
+                }
+            ]
         }
     ],
-    "task-01-02": 
-    [ 
+    "Task 01-02": [
         {
-            "task":"Task-01-02",
-            "title":"Fast Segment Anything Model (FastSAM)",
-            "lead":"John Doe",
-            "image_path":"assets/images/02.png",
-            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, autem! Laborum harum porro, earum provident enim ipsum alias doloribus aliquam quas dolores."
+            "title": "Fast Segment Anything Model (FastSAM)",
+            "lead": "John Doe",
+            "members": [
+                "John Doe",
+                "John Doe",
+                "John Doe"
+            ],
+            "image_path": "./assets/images/02.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?",
+            "links": [
+                {
+                    "title": "GitHub",
+                    "url": "https://github.com"
+                },
+                {
+                    "title": "Paper",
+                    "url": "https://arxiv.org"
+                }
+            ]
         }
     ],
-    "task-01-03": 
-    [ 
+    "Task 01-03": [
         {
-            "task":"Task-01-03",
-            "title":"Grounding DINO Sam",
-            "lead":"John Doe",
-            "image_path":"assets/images/03.png",
-            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, autem! Laborum harum porro, earum provident enim ipsum alias doloribus aliquam quas dolores."
+            "title": "Grounding DINO Sam",
+            "lead": "John Doe",
+            "members": [
+                "John Doe",
+                "John Doe",
+                "John Doe"
+            ],
+            "image_path": "./assets/images/03.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?",
+            "links": [
+                {
+                    "title": "GitHub",
+                    "url": "https://github.com"
+                },
+                {
+                    "title": "Paper",
+                    "url": "https://arxiv.org"
+                }
+            ]
         }
     ],
-    "task-01-04": 
-    [ 
+    "Task 01-04": [
         {
-            "task":"Task-01-04",
-            "title":"GNN-Based Multimodal",
-            "lead":"John Doe",
-            "image_path":"assets/images/04.png",
-            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, autem! Laborum harum porro, earum provident enim ipsum alias doloribus aliquam quas dolores."
+            "title": "GNN-Based Multimodal",
+            "lead": "John Doe",
+            "members": [
+                "John Doe",
+                "John Doe",
+                "John Doe"
+            ],
+            "image_path": "./assets/images/04.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?",
+            "links": [
+                {
+                    "title": "GitHub",
+                    "url": "https://github.com"
+                },
+                {
+                    "title": "Paper",
+                    "url": "https://arxiv.org"
+                }
+            ]
         }
     ],
-    "task-01-05": 
-    [ 
+    "Task 01-05": [
         {
-            "task":"Task-01-05",
-            "title":"YOLO with Segment Anything Model",
-            "lead":"John Doe",
-            "image_path":"assets/images/05.png",
-            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, autem! Laborum harum porro, earum provident enim ipsum alias doloribus aliquam quas dolores."
+            "title": "YOLO with Segment Anything Model",
+            "lead": "John Doe",
+            "members": [
+                "John Doe",
+                "John Doe",
+                "John Doe"
+            ],
+            "image_path": "./assets/images/05.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?",
+            "links": [
+                {
+                    "title": "GitHub",
+                    "url": "https://github.com"
+                },
+                {
+                    "title": "Paper",
+                    "url": "https://arxiv.org"
+                }
+            ]
         }
     ],
-    "task-01-06": 
-    [ 
+    "Task 01-06": [
         {
-            "task":"Task-01-06",
-            "title":"U-Net",
-            "lead":"John Doe",
-            "image_path":"assets/images/06.png",
-            "description":"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, autem! Laborum harum porro, earum provident enim ipsum alias doloribus aliquam quas dolores."
+            "title": "U-Net",
+            "lead": "John Doe",
+            "members": [
+                "John Doe",
+                "John Doe",
+                "John Doe"
+            ],
+            "image_path": "./assets/images/06.png",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?",
+            "links": [
+                {
+                    "title": "GitHub",
+                    "url": "https://github.com"
+                },
+                {
+                    "title": "Paper",
+                    "url": "https://arxiv.org"
+                }
+            ]
         }
     ]
 }

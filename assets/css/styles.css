@@ -67,6 +67,12 @@ div[data-testid="stVerticalBlock"]
     background-color: transparent;
 }
 
+/* div[data-testid="stVerticalBlockBorderWrapper"]
+{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+} */
+
 /* .stTextArea *
 {
     background-color: transparent;

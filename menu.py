@@ -11,10 +11,10 @@ class Menu:
         with st.columns([3,4,3])[1]:
             st.image(self.PAGE_BANNER, use_column_width="auto")
         
-        st.write(open('./assets/html_components/hero.html', 'r').read(), unsafe_allow_html=True)
+        st.write(open('./assets/html/hero.html', 'r').read(), unsafe_allow_html=True)
         
         with st.expander("", expanded=True):
-            st.write(open('./assets/html_components/desc.html', 'r').read(), unsafe_allow_html=True)
+            st.write(open('./assets/html/desc.html', 'r').read(), unsafe_allow_html=True)
 
         with st.columns([3,4,3])[1]:
             st.image(self.PAGE_BANNER, use_column_width="auto")
@@ -119,7 +119,7 @@ class Menu:
                                     </td>
                                 </tr>
                             """
-                with open('./assets/html_components/team.html', 'r', encoding='utf-8') as file:
+                with open('./assets/html/team.html', 'r', encoding='utf-8') as file:
                     html_content = file.read()
                 
                 st.write(html_content.format(team=full_string), unsafe_allow_html=True)
