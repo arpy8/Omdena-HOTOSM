@@ -12,12 +12,8 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?",
             "links": [
                 {
-                    "title": "GitHub",
-                    "url": "https://github.com"
-                },
-                {
-                    "title": "Paper",
-                    "url": "https://arxiv.org"
+                    "title": "code/task-01-ramp-sam-postprocessing",
+                    "url": "https://dagshub.com/Omdena/HOTOSM/src/main/code/task-01-01-ramp-sam-postprocessing"
                 }
             ]
         }
@@ -35,12 +31,8 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?",
             "links": [
                 {
-                    "title": "GitHub",
-                    "url": "https://github.com"
-                },
-                {
-                    "title": "Paper",
-                    "url": "https://arxiv.org"
+                    "title": "code/task-01-fastsam",
+                    "url": "https://dagshub.com/Omdena/HOTOSM/src/main/code/task-01-04-fastsam"
                 }
             ]
         }
@@ -58,12 +50,8 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?",
             "links": [
                 {
-                    "title": "GitHub",
-                    "url": "https://github.com"
-                },
-                {
-                    "title": "Paper",
-                    "url": "https://arxiv.org"
+                    "title": "code/task-01-groundingdino-and-sam",
+                    "url": "https://dagshub.com/Omdena/HOTOSM/src/main/code/task-01-02-groundingdino-and-sam"
                 }
             ]
         }
@@ -81,12 +69,8 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?",
             "links": [
                 {
-                    "title": "GitHub",
-                    "url": "https://github.com"
-                },
-                {
-                    "title": "Paper",
-                    "url": "https://arxiv.org"
+                    "title": "code/task-01-GNN_multimodels",
+                    "url": "https://dagshub.com/Omdena/HOTOSM/src/main/code/task-01-05-GNN_multimodels"
                 }
             ]
         }
@@ -104,12 +88,8 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?",
             "links": [
                 {
-                    "title": "GitHub",
-                    "url": "https://github.com"
-                },
-                {
-                    "title": "Paper",
-                    "url": "https://arxiv.org"
+                    "title": "code/task-01-yolosam",
+                    "url": "https://dagshub.com/Omdena/HOTOSM/src/main/code/task-01-03-yolosam"
                 }
             ]
         }
@@ -127,12 +107,8 @@
             "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?",
             "links": [
                 {
-                    "title": "GitHub",
-                    "url": "https://github.com"
-                },
-                {
-                    "title": "Paper",
-                    "url": "https://arxiv.org"
+                    "title": "code/task-01-U-NET",
+                    "url": "https://dagshub.com/Omdena/HOTOSM/src/main/code/task-01-06-U-NET"
                 }
             ]
         }

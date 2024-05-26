@@ -67,6 +67,11 @@ div[data-testid="stVerticalBlock"]
     background-color: transparent;
 }
 
+svg[data-testid="stExpanderToggleIcon"]
+{
+    opacity: 0%;
+}
+
 /* div[data-testid="stVerticalBlockBorderWrapper"]
 {
     background-color: transparent;

@@ -13,10 +13,10 @@ set_page_background()
 if 'disable_button' not in st.session_state:
     st.session_state['disable_button'] = False
 
-with st.sidebar:    
+with st.sidebar:
     selected_task = on_hover_tabs(
-        tabName=['Home Page', 'Models', 'About Us'],
-        iconName=['home', 'engineering', 'contact_support'],
+        tabName=['Home Page', 'Task 1', 'About Us'],
+        iconName=['home', 'settings', 'groups'],
         styles = {
             'navtab': {'background-color':'transparent',
                         'color': '#00000080',
@@ -38,14 +38,14 @@ with st.sidebar:
                         },
         },
         key="1",
-        default_choice=0)
+        default_choice=1)
 
 
 menu = Menu()
 if selected_task == 'Home Page':
     menu.home_page()
 
-elif selected_task == 'Models':
+elif selected_task == 'Task 1':
     menu.model_page()
 
 elif selected_task == 'About Us':
