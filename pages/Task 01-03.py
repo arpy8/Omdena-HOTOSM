@@ -20,11 +20,17 @@ file_name = os.path.basename(__file__)
 key = file_name.replace(".py", "").strip()
 
 with st.expander(key, expanded=True):
+    #header
     st.write(open("./assets/html/page.html", "r").read().split("---")[0].format(
             title=TASKS_DICT[key][0]["title"],
             lead=TASKS_DICT[key][0]["lead"],
             members=", ".join(TASKS_DICT[key][0]["members"]),
             description=TASKS_DICT[key][0]["description"],
+        ), unsafe_allow_html=True
+    )
+    
+    #Footer
+    st.write(open("./assets/html/page.html", "r").read().split("---")[1].format(
             links = "".join([f"<li><a href=\"{link['url']}\">{link['title']}</a></li>" for link in TASKS_DICT[key][0]['links']])
         ), unsafe_allow_html=True
     )

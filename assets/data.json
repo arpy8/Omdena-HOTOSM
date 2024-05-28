@@ -58,25 +58,6 @@
     ],
     "Task 01-04": [
         {
-            "title": "GNN-Based Multimodal",
-            "lead": "John Doe",
-            "members": [
-                "John Doe",
-                "John Doe",
-                "John Doe"
-            ],
-            "image_path": "./assets/images/04.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?",
-            "links": [
-                {
-                    "title": "code/task-01-GNN_multimodels",
-                    "url": "https://dagshub.com/Omdena/HOTOSM/src/main/code/task-01-05-GNN_multimodels"
-                }
-            ]
-        }
-    ],
-    "Task 01-05": [
-        {
             "title": "YOLO with Segment Anything Model",
             "lead": "John Doe",
             "members": [
@@ -94,6 +75,21 @@
             ]
         }
     ],
+    "Task 01-05": [
+        {
+            "title": "GNN-Based Multimodal",
+            "lead": "Vinicius Lourenco",
+            "members": ["N/A"],
+            "image_path": "./assets/images/04.png",
+            "description":"This task sought space for different models that were not being used throughout the project and raised tests on the model that seemed more feasible time-wise. Four main research areas were encountered: Multi-Agents + SAM, LTCNs, GNNs, and VLMs.  The model that has proven to be ready to use is the Graph Neural Networks, which enabled our team to make initial tests.",
+            "links": [
+                {
+                    "title": "code/task-01-GNN_multimodels",
+                    "url": "https://dagshub.com/Omdena/HOTOSM/src/main/code/task-01-05-GNN_multimodels"
+                }
+            ]
+        }
+    ],
     "Task 01-06": [
         {
             "title": "U-Net",
@@ -104,13 +100,13 @@
                 "John Doe"
             ],
             "image_path": "./assets/images/06.png",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?",
             "links": [
                 {
                     "title": "code/task-01-U-NET",
                     "url": "https://dagshub.com/Omdena/HOTOSM/src/main/code/task-01-06-U-NET"
                 }
-            ]
+            ],
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, eaque excepturi laborum error cupiditate ipsam ratione nulla blanditiis animi necessitatibus? Rem quis deleniti non veritatis nostrum optio ex accusamus nam. Assumenda unde, tenetur voluptate totam explicabo omnis odit itaque laborum, non ipsa officiis. Magnam ut tempora assumenda nulla cum! Laborum enim perspiciatis nihil maiores molestias quae esse incidunt facere ipsam architecto perferendis non quisquam culpa at, obcaecati quos, ducimus iste illo fugiat similique voluptatem consectetur. Officiis, quibusdam laboriosam quam aperiam accusamus voluptates nihil consectetur deserunt ipsum minus vel earum pariatur dicta explicabo sequi? Aliquid dolorem, illum quos nisi fugit consectetur deleniti necessitatibus veritatis labore est possimus quia quibusdam consequuntur saepe enim placeat mollitia veniam exercitationem, minus ullam reprehenderit dolor magnam. Consequatur temporibus officia quia cum molestiae blanditiis dicta est pariatur. Necessitatibus illo doloremque dolore molestiae soluta, eaque dolorem ipsam suscipit voluptates pariatur magnam est ad voluptas, labore delectus molestias accusantium quaerat et eos quam ducimus facere? Minima commodi sapiente nesciunt provident eum nostrum consequuntur saepe odit perspiciatis iste quibusdam est corporis, neque, quidem sit earum eos corrupti facere asperiores aperiam! Iusto explicabo minus rerum natus numquam temporibus, officiis nobis ratione ipsa deserunt nulla totam, provident exercitationem officia sint fuga velit?"
         }
     ]
 }
