@@ -49,7 +49,7 @@ with st.expander(key, expanded=True):
     """)
     
     with st.columns([1,10,1])[1]:
-        st.image(r"assets\images\05-img.png")
+        st.image("assets/images/05-img.png")
 
     st.write("""
     As can be seen in the figure above, the Polyworld GNN identifies the roofs with few imperfections, but seems like it also misclassifies car roofs as a house roof, raising the need for future fine-tuning of the model for improvements (for example, augmenting the minimum line size to higher than 1 meter). 
