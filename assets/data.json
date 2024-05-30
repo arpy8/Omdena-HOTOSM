@@ -79,7 +79,7 @@
         {
             "title": "GNN-Based Multimodal",
             "lead": "Vinicius Lourenco",
-            "members": ["N/A"],
+            "members": ["Leila", "Bakal"],
             "image_path": "./assets/images/04.png",
             "description":"This task sought space for different models that were not being used throughout the project and raised tests on the model that seemed more feasible time-wise. Four main research areas were encountered: Multi-Agents + SAM, LTCNs, GNNs, and VLMs.  The model that has proven to be ready to use is the Graph Neural Networks, which enabled our team to make initial tests.",
             "links": [
