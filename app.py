@@ -1,9 +1,9 @@
-import streamlit as st
-from st_on_hover_tabs import on_hover_tabs
-
 from menu import Menu
+import streamlit as st
+
 from constants import PAGE_FAVICON
 from utils import set_page_background
+from st_on_hover_tabs import on_hover_tabs
 
 
 st.set_page_config(page_title='Omdena HOTOSM Webapp', page_icon=PAGE_FAVICON, layout='wide', initial_sidebar_state="collapsed")
@@ -15,11 +15,11 @@ if 'disable_button' not in st.session_state:
 
 with st.sidebar:
     selected_task = on_hover_tabs(
-        tabName=['Home Page', 'Task 1', 'About Us'],
+        tabName=['Home Page', 'Task 01', 'About Us'],
         iconName=['home', 'settings', 'groups'],
         styles = {
-            'navtab': {'background-color':'transparent',
-                        'color': '#00000080',
+            'navtab': {'background-color':'none',
+                        'color': '#fff',
                         'padding': '40px 0px 10px 0px',
                         'border-radius': '0px',
                         'font-size': '18px',    
@@ -27,7 +27,7 @@ with st.sidebar:
                         'white-space': 'nowrap',
                         'text-transform': 'uppercase',
             },
-            'tabOptionsStyle': {':hover :hover': {'color': '#170034',
+            'tabOptionsStyle': {':hover :hover': {'color': '#d73f3e',
                                             'cursor': 'pointer'},
                             },
             'iconStyle':{'position':'fixed',    
@@ -38,14 +38,14 @@ with st.sidebar:
                         },
         },
         key="1",
-        default_choice=0)
+        default_choice=1)
 
 
 menu = Menu()
 if selected_task == 'Home Page':
     menu.home_page()
 
-elif selected_task == 'Task 1':
+elif selected_task == 'Task 01':
     menu.model_page()
 
 elif selected_task == 'About Us':

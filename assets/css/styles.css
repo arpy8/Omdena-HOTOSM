@@ -13,7 +13,7 @@ section[data-testid='stSidebar'] * {
 }
 
 div[data-testid="stDataFrameResizable"] * {
-    background-color: transparent;  
+    background-color: transparent;
 }
 
 button[data-testid='baseButton-secondary'] {
@@ -89,6 +89,11 @@ svg[data-testid="stExpanderToggleIcon"]
     background-color: #ffffff05;
     border: 1px solid #ffffff80;
 } */
+
+section[data-testid="stSidebar"]
+{
+    background-color: #111111 !important;
+}
 
 div[data-baseweb="popover"] *
 {

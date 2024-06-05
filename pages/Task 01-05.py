@@ -24,7 +24,7 @@ with st.expander(key, expanded=True):
             title=TASKS_DICT[key][0]["title"],
             lead=TASKS_DICT[key][0]["lead"],
             members=", ".join(TASKS_DICT[key][0]["members"]),
-            description=TASKS_DICT[key][0]["description"],
+            description=TASKS_DICT[key][0]["desc"],
             links = "".join([f"<li><a href=\"{link['url']}\">{link['title']}</a></li>" for link in TASKS_DICT[key][0]['links']])
         ), unsafe_allow_html=True
     )
