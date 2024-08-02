@@ -62,3 +62,22 @@ def create_container(task):
     except Exception as e:
         st.error(f"Error: {e}")
         return False
+    
+def task_header(key):
+    st.markdown('<style>' + open('./assets/css/styles.css').read() + '</style>', unsafe_allow_html=True)
+    
+    st.write("""
+        <h2>{title}</h2>
+            <p>
+            <b>Lead: </b>{lead}<br />
+            <b>Team Members: </b>{members}
+            <br>
+        </p>
+    """.format(
+            title=TASKS_DICT[key][0]["title"],
+            lead=TASKS_DICT[key][0]["lead"],
+            members=", ".join(TASKS_DICT[key][0]["members"]),
+        ), unsafe_allow_html=True
+    )
+    
+    st.link_button("Dagshub Link", url=TASKS_DICT[key][0]["url"])

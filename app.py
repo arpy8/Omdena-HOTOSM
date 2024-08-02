@@ -38,7 +38,7 @@ with st.sidebar:
                         },
         },
         key="1",
-        default_choice=1)
+        default_choice=0)
 
 
 menu = Menu()

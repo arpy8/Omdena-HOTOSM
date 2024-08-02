@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_extras.switch_page_button import switch_page
 
 from constants import TASKS_DICT
-from utils import set_page_background
+from utils import set_page_background, task_header
 
 
 st.markdown('<style>' + open('./assets/css/styles.css').read() + '</style>', unsafe_allow_html=True)
@@ -19,17 +19,15 @@ file_name = os.path.basename(__file__)
 key = file_name.replace(".py", "").strip()
 
 with st.expander(key, expanded=True):
-    #Header
-    st.write(open("./assets/html/page.html", "r").read().split("---")[0].format(
-            title=TASKS_DICT[key][0]["title"],
-            lead=TASKS_DICT[key][0]["lead"],
-            members=", ".join(TASKS_DICT[key][0]["members"]),
-            description=TASKS_DICT[key][0]["desc"],
-            links = "".join([f"<li><a href=\"{link['url']}\">{link['title']}</a></li>" for link in TASKS_DICT[key][0]['links']])
-        ), unsafe_allow_html=True
-    )
+    task_header(key)
     
-    st.write("""
+    with st.columns([1,6,1])[1]:
+        st.image('./assets/images/05.png', use_column_width=True)
+    
+    st.write(f"""
+    This task sought space for different models that were not being used throughout the project and raised tests on the model that seemed more feasible time-wise. Four main research areas were encountered: Multi-Agents + SAM, LTCNs, GNNs, and VLMs.  The model that has proven to be ready to use is the Graph Neural Networks, which enabled our team to make initial tests. 
+
+             
     ##### 1. Multi-Agents LLM + Segment model
     The founding idea was to leverage the multi-agents approach to improve current models, seeking to integrate LLMs (LM Studio) and SAM with text prompt. The attempt proved to be heavy research-wise. At the end of the project, our team encountered research in progress that may become a potential technology to test in the future - Multimodal-Maestro. Another model in this line we found is Catlip. 
     

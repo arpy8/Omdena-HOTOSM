@@ -2,7 +2,7 @@ import streamlit as st
 from constants import PAGE_BANNER
 from utils import create_container
 from st_on_hover_tabs import on_hover_tabs
-from constants import TASKS_DICT
+from constants import HOME_PAGE_DESCRIPTION
 
 class Menu:
     def __init__(self):
@@ -48,10 +48,21 @@ class Menu:
         with st.columns([3,4,3])[1]:
             st.image(self.PAGE_BANNER, use_column_width="auto")
         
-        st.write(open('./assets/html/hero.html', 'r').read(), unsafe_allow_html=True)
+        st.write("""
+        <div class="home">
+            <center class="heading">
+                <h1>
+                Enhancing Global Mapping Through AI
+                <h4 class="caption">
+                    A collaborative project of the Humanitarian OpenStreetMap Team and Omdena
+                </h4>
+                </h1>
+            </center>
+        </div>         
+        """, unsafe_allow_html=True)
         
         with st.expander("", expanded=True):
-            st.write(open('./assets/html/desc.html', 'r').read(), unsafe_allow_html=True)
+            st.write(HOME_PAGE_DESCRIPTION, unsafe_allow_html=True)
 
         with st.columns([3,4,3])[1]:
             st.image(self.PAGE_BANNER, use_column_width="auto")

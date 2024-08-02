@@ -1,3 +1,27 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap");
+
+.heading {
+    font-family: "Quicksand", sans-serif;
+    color: #000;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 80px 0 285px 0 !important;
+}
+
+.caption {
+  color: #00000090;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Quicksand", sans-serif;
+  color: #000;
+  }
+  
+.description {
+  padding: 0 0 25px 0;
+}
 /* #root {
     backdrop-filter: blur(10px);
 } */
@@ -32,6 +56,15 @@ div[data-testid="stExpander"] {
     border-color: #ffffff95;
     backdrop-filter: blur(10px);
     background-color: #ffffff75;
+    border-radius: 1vh;
+}
+
+div[data-testid="stExpander"] img {
+    border-radius: 5px;
+}
+
+button[data-testid="StyledFullScreenButton"] {
+    display: none;
 }
 
 div[data-testid="stMultiSelect"] {
@@ -49,17 +82,17 @@ div[data-baseweb="select"] *
 
 a[data-testid="stSidebarNavLink"]
 {
-    opacity: 0;
+    display: none;
 }
 
 div[data-testid="stSidebarNavSeparator"]
 {
-    opacity: 0;
+    display: none;
 }
 
 ul[data-testid="stSidebarNavItems"]
 {
-    opacity: 0;
+    display: none;
 }
 
 div[data-testid="stVerticalBlock"]
@@ -69,7 +102,7 @@ div[data-testid="stVerticalBlock"]
 
 svg[data-testid="stExpanderToggleIcon"]
 {
-    opacity: 0%;
+    display: none;
 }
 
 /* div[data-testid="stVerticalBlockBorderWrapper"]
